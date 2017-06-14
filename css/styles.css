@@ -1,0 +1,32 @@
+header {
+  color: black;
+}
+
+.buck {
+  background-color: #FFB233;
+  height: 100px;
+  margin: 0;
+}
+
+#tre {
+  text-align: center;
+}
+
+.flush {
+  background-color: #BBFF33;
+  height: 600px;
+}
+
+.pat {
+  background-color: Grey;
+  height: 600px;
+  width: 100%;
+}
+
+h3 {
+  color: red;
+}
+
+.elite {
+  padding: 2%;
+}
