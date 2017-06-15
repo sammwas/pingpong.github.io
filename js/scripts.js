@@ -1,7 +1,7 @@
 //business logic
 var numArray=[];
 var pingpong=function(num){
-   for(var x=1;x<=num x++){
+   for(var x=1;x<=num;x++){
      if(x % 15===0){
         numArray.push("pingpong");
      }else if (x % 5===0) {
