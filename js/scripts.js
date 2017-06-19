@@ -1,16 +1,16 @@
 //business logic
-var numArray=[];
+var numArrays=[];
 var pingpong=function(num){
    for(var x=1;x<=num;x++){
      if(x % 15===0){
-        numArray.push("pingpong");
+        numArrays.push("pingpong");
      }else if (x % 5===0) {
-        numArray.push("pong");
+        numArrays.push("pong");
      }
      else if (x % 3===0) {
-        numArray.push("ping");
+        numArrays.push("ping");
      } else {
-        numArray.push(x);
+        numArrays.push(x);
      }
    };
 
@@ -23,7 +23,7 @@ $(document).ready(function(){
       var num=parseInt($("input#slow").val());
       $("#swim").text("");
       pingpong(num);
-      numArray.forEach(function(num){
+      numArrays.forEach(function(num){
         $("#swim").append('<li>' + num + '<li>');
 
       });

@@ -1,6 +1,9 @@
 header {
   color: black;
 }
+.elite {
+  height: 100%;
+}
 
 .buck {
   background-color: #FFB233;
@@ -13,21 +16,16 @@ header {
 }
 
 .flush {
-  background-color: #BBFF33;
   height: 600px;
-
+  background-color: #BBFF33;
 }
 
 .pat {
   background-color: Grey;
   height: 600px;
-  
+
 }
 
 h3 {
   color: red;
-}
-
-.elite {
-  padding: 2%;
 }
